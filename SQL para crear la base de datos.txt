@@ -1,0 +1,8 @@
+CREATE SCHEMA `log` DEFAULT CHARACTER SET utf16 ;
+
+
+CREATE TABLE `log`.`logs` (
+  `idlog` INT NOT NULL AUTO_INCREMENT,
+  `date` DATETIME NOT NULL,
+  `logtext` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`idlog`));
